@@ -1,4 +1,4 @@
-module.export = function(e) {
+module.exports = function(e) {
   if (!e) return false;
 
   if (typeof HTMLElement === "object") return e instanceof HTMLElement;
